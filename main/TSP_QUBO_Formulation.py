@@ -33,7 +33,7 @@ from qiskit_optimization.translators import from_docplex_mp
 from qiskit_optimization.converters import QuadraticProgramToQubo
 from docplex.mp.model import Model
 
-def tsp_maker (n: int, seed: int, SHOW_PLOTS=False) -> np.ndarray:
+def create_TSP (n: int, seed: int, SHOW_PLOTS=False) -> np.ndarray:
     """
     Creates and represents the complete graph of size n of the TSP considered.
 
