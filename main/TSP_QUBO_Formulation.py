@@ -110,7 +110,7 @@ def QUBO (D: np.ndarray, lam: float)-> np.ndarray:
     for p in range(len(steps)-1):
         curr_p = steps[p]
         next_p = steps[p+1]
-        obj + = mdl.sum(D[i, j] * x[i, curr_p] * x[j, next_p] for i in nodes for j in nodes if i != j)
+        obj += mdl.sum(D[i, j] * x[i, curr_p] * x[j, next_p] for i in nodes for j in nodes if i != j)
     
     # Return step
     obj += mdl.sum(D[i, 0] * x[i, steps[-1]]*x[i, steps[-1]] for i in nodes)
