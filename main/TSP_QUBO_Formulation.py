@@ -5,7 +5,7 @@
 
 
 """
-TSP.py
+TSP_QUBO_Formulation.py
 ---------------------
 Creates the matrix Q whose QUBO represents the TSP.
 
