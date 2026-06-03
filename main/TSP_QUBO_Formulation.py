@@ -7,11 +7,13 @@
 """
 TSP_QUBO_Formulation.py
 ---------------------
-Creates the matrix Q whose QUBO represents the TSP.
+Creates the matrix Q, whose QUBO represents the TSP. We cosider: N cities (although city 0 is known to be the first and last city of the route) and symmetric distances.
 
 Functions
 ---------------------
+create_TSP
 
+QUBO
 
 Dependencies
 ---------------------
