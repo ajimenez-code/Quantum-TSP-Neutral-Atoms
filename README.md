@@ -20,6 +20,7 @@ pip install -r requirements.txt
 The TSP instances are defined in `[TSP_QUBO_Formulation.py]`. These are then mapped onto a neutral-atom system in `[Embedding.py]`. The two algorithms, VQAA and QAOA, are executed in `[VQAA.py]` and `[QAOA.py]`, respectively. The most relevant visual results are stored in the `media` directory, including:
 * **Problem instances & embedding layouts** mapped onto the hardware.
 * **STRESS evaluation** metrics.
+* **The Pulse time heuristic** for both instances.
 * **Best and worst-case scenarios** for both algorithms and instances.
 
 #### Author
