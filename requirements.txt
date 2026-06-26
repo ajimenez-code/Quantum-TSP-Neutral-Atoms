@@ -1,0 +1,13 @@
+pulser==1.8.0
+pulser-core==1.8.0
+pulser-simulation==1.8.0
+qadence==1.11.5
+optuna==4.8.0
+docplex==2.32.264
+qiskit==2.4.1
+qiskit-optimization==0.7.0
+numpy==2.4.6
+matplotlib==3.10.9
+networkx==3.6.1
+scipy==1.17.1
+torch==2.12.0
