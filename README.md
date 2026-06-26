@@ -15,7 +15,7 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/ajimenez-code/Quantum-TSP-Neutral-Atoms.git
 cd Quantum-TSP-Neutral-Atoms
 pip install -r requirements.txt
-
+´´´
 #### Workflow
 The TSP instances are defined in `[TSP_QUBO_Formulation.py]`. These are then mapped onto a neutral-atom system in `[Embedding.py]`. The two algorithms, VQAA and QAOA, are executed in `[VQAA.py]` and `[QAOA.py]`, respectively. The complete workflow for the 4 cities TSP instance is illustrated in the notebook `[main4city.ipynb]`.
 
